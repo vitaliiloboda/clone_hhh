@@ -1,1 +1,1 @@
-web: gunicorn hawaii_project.wsgi
+web: gunicorn clone_hhh.wsgi
