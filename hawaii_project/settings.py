@@ -29,9 +29,10 @@ IS_HEROKU = "DYNO" in os.environ
 # if 'SECRET_KEY' in os.environ:
 #     SECRET_KEY = os.environ["SECRET_KEY"]
 
-dot_env = BASE_DIR / '.env'
-load_dotenv(dotenv_path=dot_env)
-SECRET_KEY = os.getenv('SECRET_KEY')
+# dot_env = BASE_DIR / '.env'
+# load_dotenv(dotenv_path=dot_env)
+# SECRET_KEY = os.getenv('SECRET_KEY')
+SECRET_KEY='django-insecure-&p4t^!4nhbm6+t%7-5)to*qvmr@^r_#^j*gj9uubr1o3^n(+v+'
 
 if IS_HEROKU:
     ALLOWED_HOSTS = ["*"]
