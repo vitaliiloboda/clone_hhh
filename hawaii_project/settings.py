@@ -32,7 +32,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # dot_env = BASE_DIR / '.env'
 # load_dotenv(dotenv_path=dot_env)
 # SECRET_KEY = os.getenv('SECRET_KEY')
-SECRET_KEY='django-insecure-&p4t^!4nhbm6+t%7-5)to*qvmr@^r_#^j*gj9uubr1o3^n(+v+'
+SECRET_KEY = 'django-insecure-&p4t^!4nhbm6+t%7-5)to*qvmr@^r_#^j*gj9uubr1o3^n(+v+'
 
 # if IS_HEROKU:
 #     ALLOWED_HOSTS = ["*"]
@@ -44,9 +44,9 @@ SECRET_KEY='django-insecure-&p4t^!4nhbm6+t%7-5)to*qvmr@^r_#^j*gj9uubr1o3^n(+v+'
 #     DEBUG = True
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = True
+DEBUG = True
 
-# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = []
 
 # Application definition
 
